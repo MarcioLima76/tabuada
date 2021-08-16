@@ -47,3 +47,9 @@
              color: #AB3C6C;
              text-align: center;
              font-style: italic;
+           
+           }
+
+     @media only screen and (max-device-width: 900px) {
+     /* .menu { width:600px; } */
+      }
