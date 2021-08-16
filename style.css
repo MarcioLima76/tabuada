@@ -9,6 +9,10 @@
 @media screen and (max-width: 600px) {
 /* Estilos */
 }
+@media screen and (min-width:
+1024px) {
+ #main { min-width: 1000px; }
+}
 
 body {
              background: #F8E8DA;
