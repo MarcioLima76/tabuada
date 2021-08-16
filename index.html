@@ -1,0 +1,55 @@
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Roleta Tabuada</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+
+<body>
+    <header>
+        <h1>Jogo da Tabuada</h1>
+
+    </header>
+    <section>
+        <div>
+            <p><strong>Clique para Sortear os números e resolva a Multiplicação :</strong></p>
+        </div>
+        <div class="container-a">
+            <button id="generate1">Sortear 1º Número </button>
+            <span id="ranNum1" style=" font-size: 36px"></span>
+        </div>
+
+
+        <button style="margin-top: 10px; margin-left: 155px;"><strong>X</strong></button>
+
+        <div class="container-b">
+            <button id="generate2">Sortear 2º Número </button>
+            <span id="ranNum2" style=" font-size: 36px"></span>
+        </div>
+
+        <button style="margin-top: 10px; margin-left: 155px; ">=</button>
+
+        <!--<button>Resultado:</button>-->
+
+        <p class="resultado "></p>
+
+        <div=c lass="centro">
+            <strong>Digite a resposta:</strong>
+            <input type="number" id="resposta" style="width: 200px; height: 40px;font-size: 36px"> e
+            <input type="Submit" style="width: 100px; height: 30px;font-size: 16px" onclick="capturar()" value="clique aqui">
+            <input type="button" onclick="reset()" value="Limpar" />
+            <p class=" valorDigitado "></p>
+
+            </div>
+
+    </section>
+
+
+    <footer>
+        <p>Designed by &copy; Marcio Nogueira de Lima &#128526; Inspired by &copy; Miguel Arthur Tardin de Lima</p>
+    </footer>
+    <script src=" script.js "></script>
+</body>
+
+</html>
