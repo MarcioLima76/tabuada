@@ -1,0 +1,61 @@
+                    * {
+                    margin: 0px;
+                    padding: 0px;
+                }
+                
+                .principal {
+                    position: realtive;
+                    width: 1000px;
+                    margin: 0 auto;
+                    height: 450px;
+                }
+                
+                body {
+                    background: #F8E8DA;
+                    font: normal 16pt Arial;
+                    font-size: 125%;
+                    line-height: 1;
+                    -webkit-font-smoothing: antialiased;
+                }
+                
+                header {
+                    color: #AB3C6C;
+                    text-align: center;
+                    font-size: 125%;
+                }
+                
+                button {
+                    background-color: #1FAD27;
+                    /* Green */
+                    border: none;
+                    color: white;
+                    padding: 10px 10px;
+                    text-align: center;
+                    text-decoration: none;
+                    display: inline-block;
+                    font-size: 16px;
+                    margin: 10px 30px 5px 100px;
+                    cursor: pointer;
+                    border-radius: 12px;
+                }
+                
+                section {
+                    font-size: 125%;
+                    color: #563CAB;
+                    background: #D2FAD4;
+                    border-radius: 10px;
+                    padding: 15px;
+                    width: 800px;
+                    height: 450px;
+                    margin: auto;
+                    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.363);
+                }
+                
+                p {
+                    text-align: center;
+                }
+                
+                footer {
+                    color: #AB3C6C;
+                    text-align: center;
+                    font-style: italic;
