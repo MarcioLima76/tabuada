@@ -1,9 +1,14 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Roleta Tabuada</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Jogo da Tabuada- Esponsivo</title>
+    <link rel="stylesheet" type="text/css" media="screen and (min-width: 0px)" href="small.css">
+    <link rel="stylesheet " type="text/css " media="screen and (min-width: 600px)" href="medium.css">
+    <link rel="stylesheet " type="text/css " media="screen and (min-width: 1000px)" href="large.css">
 </head>
 
 <body>
@@ -11,7 +16,7 @@
         <h1>Jogo da Tabuada</h1>
 
     </header>
-    <section>
+    <section class="principal">
         <div>
             <p><strong>Clique para Sortear os números e resolva a Multiplicação :</strong></p>
         </div>
@@ -34,12 +39,17 @@
 
         <p class="resultado "></p>
 
-        <div=class="centro">
+        <div=c lass="centro">
             <strong>Digite a resposta:</strong>
-            <input type="number" id="resposta" style="width: 100px; height: 40px;font-size: 36px"> e
-            <input type="Submit" style="width: 100px; height: 30px;font-size: 16px" onclick="capturar()" value="clique aqui">
-            <input type="button" style="width: 100px; height: 30px;font-size: 16px" onclick="reset()" value="Limpar" />
-            <p class=" valorDigitado "></p>
+            <input type="number" id="resposta" style="width: 80px; height: 40px;font-size: 24px"> e
+            <br>
+            <br>
+            <input type="Submit" style="width: 100px; height: 30px;font-size: 16px; background-color:#1FAD27" onclick="capturar()" value="clique aqui">
+            <input type="button" onclick="reset()" value="Limpar" style="width: 80px; height: 30px;font-size: 16px; background-color:yellow" />
+            <br>
+            <br>
+            <p class="valorDigitado" style="font-size: 30px"></p>
+
 
             </div>
 
@@ -47,7 +57,9 @@
 
 
     <footer>
-        <p>Designed by &copy; Marcio Nogueira de Lima &#128526; Inspired by &copy; Miguel Arthur Tardin de Lima</p>
+        <br>
+        <p>Designed by &copy; Marcio Nogueira de Lima &#128526;
+            <br>Inspired by &copy; Miguel Arthur Tardin de Lima</p>
     </footer>
     <script src=" script.js "></script>
 </body>
